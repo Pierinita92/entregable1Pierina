@@ -1,0 +1,55 @@
+.App{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.quoteBox{
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 600px;
+  position: relative;
+  box-shadow: 1px 1px 18px rgb(132, 132, 132);
+}
+
+.quoteBox:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.author{
+  text-align: center;
+  margin: 15px 0;
+} 
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  aspect-ratio: 1;
+  cursor: pointer;
+  margin: 0 0 10px 10px;
+  transition: transform 300ms ease;
+}
+
+.button:hover {
+  transform: scale(1.2);
+}
+
+.iconBox{
+  font-size: 50px;
+  margin: 10px 0 0 10px;
+}
+
+
+
